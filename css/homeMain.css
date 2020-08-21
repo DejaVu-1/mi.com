@@ -1,0 +1,677 @@
+/* homeMain */
+.homeMain{
+	margin-top: 25px;
+	width: 100%;
+	background-color: #f5f5f5;
+}
+/* 小米闪购 */
+.homeMain .shangouTitle{
+	margin: 0 62px;
+	font-size: 22px;
+	font-weight: 200;
+	line-height: 58px;
+	color: #333;
+}
+.homeMain .shangouList{
+	display: flex;
+	margin: 0 62px;
+	justify-content: space-around;
+}
+.homeMain .shangouList .shangou1{
+	background-image: url(../img/shangouImg5.png);
+	background-size: 100%;
+	width: 240px;
+	height: 340px;
+}
+.homeMain .shangouList .shangou2{
+	background-image: url(../img/shangouImg1.png);
+	background-size: 100%;
+	width: 240px;
+	height: 340px;
+}
+.homeMain .shangouList .shangou3{
+	background-image: url(../img/shangouImg2.png);
+	background-size: 100%;
+	width: 240px;
+	height: 340px;
+}
+.homeMain .shangouList .shangou4{
+	background-image: url(../img/shangouImg3.png);
+	background-size: 100%;
+	width: 240px;
+	height: 340px;
+}
+.homeMain .shangouList .shangou5{
+	background-image: url(../img/shangouImg4.png);
+	background-size: 100%;
+	width: 240px;
+	height: 340px;
+}
+/* 分割：K30zhizn */
+.homeMain .k30_zhizun{
+	margin: 20px 62px 0 62px;
+	background-image: url(../img/K30_zhizun.webp);
+	height: 120px;
+	width: 1226px;
+}
+/* 手机版块 */
+.homeMain .miphone{
+	position: relative;
+}
+.homeMain .miphone .miPhoneTop{
+	display: flex;
+}
+.homeMain .miphone .miphoneTitle{
+	margin: 0 62px;
+	font-size: 22px;
+	font-weight: 200;
+	line-height: 58px;
+	color: #333;
+}
+.homeMain .miphone .showAll{
+	font-size: 16px;
+	line-height: 58px;
+	color: #424242;
+	position: absolute;
+	right: 62px;
+	display: flex;
+	transition: all 0.4s;
+}
+.homeMain .miphone .showAll .icon-youjiantou-tianchong{
+	padding-left: 7px;
+	font-size: 20px;
+}
+.homeMain .miphone .showAll:hover{
+	font-size: 16px;
+	line-height: 58px;
+	color: #FF6700;
+	position: absolute;
+	right: 62px;
+	display: flex;
+}
+.miphone .miPhoneMain{
+	margin: 0 62px;
+	display: flex;
+}
+.miphone .miPhoneMain .miPhoneLeft{
+	background-image: url(../img/miPhoneImg1.webp);
+	width: 234px;
+	height: 614px;
+	transition: all 0.4s;
+}
+.miphone .miPhoneMain .miPhoneLeft:hover{
+	background-image: url(../img/miPhoneImg1.webp);
+	width: 234px;
+	height: 614px;
+	transform: translateY(-5px);
+	box-shadow:5px 10px 25px  rgba(0,0,0,0.5);
+}
+.miphone .miPhoneMain .miPhoneList{
+	flex: 1;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: -3px;
+}
+.miphone .miPhoneMain .phoneList1{
+	background-image: url(../img/miPhoneImg2.png);
+	width: 234px;
+	height: 300px;
+	margin-left: 14px;
+	transition: all 0.4s;
+}
+.miphone .miPhoneMain .phoneList1:hover{
+	background-image: url(../img/miPhoneImg2.png);
+	width: 234px;
+	height: 300px;
+	margin-left: 14px;
+	transform: translateY(-1px);
+	box-shadow:5px 10px 25px  rgba(0,0,0,0.5);
+}
+.miphone .miPhoneMain .phoneList2{
+	background-image: url(../img/miPhoneImg3.png);
+	width: 234px;
+	height: 300px;
+	transition: all 0.4s;
+}
+.miphone .miPhoneMain .phoneList2:hover{
+	background-image: url(../img/miPhoneImg3.png);
+	width: 234px;
+	height: 300px;
+	transform: translateY(-1px);
+	box-shadow:5px 10px 25px  rgba(0,0,0,0.5);
+}
+.miphone .miPhoneMain .phoneList3{
+	background-image: url(../img/miPhoneImg4.png);
+	width: 234px;
+	height: 300px;
+	transition: all 0.4s;
+}
+.miphone .miPhoneMain .phoneList3:hover{
+	background-image: url(../img/miPhoneImg4.png);
+	width: 234px;
+	height: 300px;
+	transform: translateY(-1px);
+	box-shadow:5px 10px 25px  rgba(0,0,0,0.5);
+}
+.miphone .miPhoneMain .phoneList4{
+	background-image: url(../img/miPhoneImg5.png);
+	width: 234px;
+	height: 300px;
+	transition: all 0.4s;
+}
+.miphone .miPhoneMain .phoneList4:hover{
+	background-image: url(../img/miPhoneImg5.png);
+	width: 234px;
+	height: 300px;
+	transform: translateY(-1px);
+	box-shadow:5px 10px 25px  rgba(0,0,0,0.5);
+}
+.miphone .miPhoneMain .phoneList5{
+	background-image: url(../img/miPhoneImg6.png);
+	width: 234px;
+	height: 300px;
+	margin-left: 14px;
+	transition: all 0.4s;
+}
+.miphone .miPhoneMain .phoneList5:hover{
+	background-image: url(../img/miPhoneImg6.png);
+	width: 234px;
+	height: 300px;
+	margin-left: 14px;
+	transition: all 0.4s;
+	transform: translateY(-1px);
+	box-shadow:5px 10px 25px  rgba(0,0,0,0.5);
+}
+.miphone .miPhoneMain .phoneList6{
+	background-image: url(../img/miPhoneImg7.png);
+	width: 234px;
+	height: 300px;
+	transition: all 0.4s;
+}
+.miphone .miPhoneMain .phoneList6:hover{
+	background-image: url(../img/miPhoneImg7.png);
+	width: 234px;
+	height: 300px;
+	transform: translateY(-1px);
+	box-shadow:5px 10px 25px  rgba(0,0,0,0.5);
+}
+.miphone .miPhoneMain .phoneList7{
+	background-image: url(../img/miPhoneImg8.png);
+	width: 234px;
+	height: 300px;
+	transition: all 0.4s;
+}
+.miphone .miPhoneMain .phoneList7:hover{
+	background-image: url(../img/miPhoneImg8.png);
+	width: 234px;
+	height: 300px;
+	transform: translateY(-1px);
+	box-shadow:5px 10px 25px  rgba(0,0,0,0.5);
+}
+.miphone .miPhoneMain .phoneList8{
+	background-image: url(../img/miPhoneImg9.png);
+	width: 234px;
+	height: 300px;
+	transition: all 0.4s;
+}
+.miphone .miPhoneMain .phoneList8:hover{
+	background-image: url(../img/miPhoneImg9.png);
+	width: 234px;
+	height: 300px;
+	transform: translateY(-1px);
+	box-shadow:5px 10px 25px  rgba(0,0,0,0.5);
+}
+/* 分割：智能电视 */
+.homeMain .smartTV{
+	margin: 20px 0 20px 62px;
+	background-image: url(../img/smartTV.webp);
+	width: 1226px;
+	height: 120px;
+}
+/* 家电版块 */
+.homeMain .JDTitle{
+	display: flex;
+	position: relative;
+}
+.homeMain .JDTitle .jiadian{
+	margin: 0 62px;
+	font-size: 22px;
+	font-weight: 200;
+	line-height: 58px;
+	color: #333;
+}
+.homeMain .JDRight{
+	display: flex;
+	position: absolute;
+	font-size: 16px;
+	margin-top: 16px;
+	line-height: 30px;
+	right: 62px;
+}
+.homeMain .JDRight .JDHot{
+	margin-right: 30px;
+	color: #424242;
+}
+.homeMain .JDRight .JDHot:hover{
+	margin-right: 30px;
+	color: #FF6700;
+	border-bottom: 2px solid #FF6700;
+}
+.homeMain .JDRight .JDTVMovie{
+	color: #424242;
+}
+.homeMain .JDRight .JDTVMovie:hover{
+	color: #FF6700;
+	border-bottom: 2px solid #FF6700;
+}
+.homeMain .JDMain .JDMainTop{
+	margin: 0 62px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.homeMain .JDMain .JDMainTop .JDTopItem1{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/JDImg1.png);
+	transition: all 0.4s;
+}
+.homeMain .JDMain .JDMainTop .JDTopItem2{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/JDImg2.png);
+	transition: all 0.4s;
+}
+.homeMain .JDMain .JDMainTop .JDTopItem3{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/JDImg3.png);
+	transition: all 0.4s;
+}
+.homeMain .JDMain .JDMainTop .JDTopItem4{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/JDImg4.png);
+	transition: all 0.4s;
+}
+.homeMain .JDMain .JDMainTop .JDTopItem5{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/JDImg5.png);
+	transition: all 0.4s;
+}
+.homeMain .JDMain .JDMainTop .JDTopItem1:hover,
+.homeMain .JDMain .JDMainTop .JDTopItem2:hover,
+.homeMain .JDMain .JDMainTop .JDTopItem3:hover,
+.homeMain .JDMain .JDMainTop .JDTopItem4:hover,
+.homeMain .JDMain .JDMainTop .JDTopItem5:hover{
+	width: 235px;
+	height: 300px;
+	transform: translateY(-1px);
+	box-shadow:5px 10px 25px  rgba(0,0,0,0.5);
+}
+.homeMain .JDMain .JDMainBottom{
+	margin: 15px 62px 0 62px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.homeMain .JDMain .JDMainBottom .JDTopItem6{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/JDImg6.png);
+	transition: all 0.4s;
+}
+.homeMain .JDMain .JDMainBottom .JDTopItem7{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/JDImg7.png);
+	transition: all 0.4s;
+}
+.homeMain .JDMain .JDMainBottom .JDTopItem8{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/JDImg8.png);
+	transition: all 0.4s;
+}
+.homeMain .JDMain .JDMainBottom .JDTopItem9{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/JDImg9.png);
+	transition: all 0.4s;
+}
+.homeMain .JDMain .JDMainBottom .JDBottomR{
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+	justify-content: space-between;
+}
+.homeMain .JDMain .JDMainBottom .JDTopItem10{
+	width: 235px;
+	height: 140px;
+	background-image: url(../img/JDImg10.png);
+	background-repeat: no-repeat;
+	transition: all 0.4s;
+}
+.homeMain .JDMain .JDMainBottom .JDTopItem11{
+	width: 235px;
+	height: 140px;
+	background-image: url(../img/Browse_more.png);
+	background-repeat: no-repeat;
+	transition: all 0.4s;
+}
+.homeMain .JDMain .JDMainBottom .JDTopItem6:hover,
+.homeMain .JDMain .JDMainBottom .JDTopItem7:hover,
+.homeMain .JDMain .JDMainBottom .JDTopItem8:hover,
+.homeMain .JDMain .JDMainBottom .JDTopItem9:hover,
+.homeMain .JDMain .JDMainBottom .JDTopItem10:hover,
+.homeMain .JDMain .JDMainBottom .JDTopItem11:hover{
+	transform: translateY(-1px);
+	box-shadow:5px 10px 25px  rgba(0,0,0,0.5);
+}
+/* 分割：智能门锁 */
+.homeMain .smartLock{
+	background-image: url(../img/smartLock.webp);
+	width: 1226px;
+	height: 120px;
+	margin: 20px 62px 20px 62px;
+}
+/* 智能版块 */
+.homeMain .ZNTitle{
+	display: flex;
+	position: relative;
+}
+.homeMain .ZNTitle .zhineng{
+	margin: 0 62px;
+	font-size: 22px;
+	font-weight: 200;
+	line-height: 58px;
+	color: #333;
+}
+.homeMain .ZNRight{
+	display: flex;
+	position: absolute;
+	font-size: 16px;
+	margin-top: 16px;
+	line-height: 30px;
+	right: 62px;
+}
+.homeMain .ZNRight .ZNHot{
+	margin-right: 30px;
+	color: #424242;
+}
+.homeMain .ZNRight .ZNHot:hover{
+	margin-right: 30px;
+	color: #FF6700;
+	border-bottom: 2px solid #FF6700;
+}
+.homeMain .ZNRight .ZNSecurity{
+	color: #424242;
+	margin-right: 30px;
+}
+.homeMain .ZNRight .ZNSecurity:hover{
+	color: #FF6700;
+	border-bottom: 2px solid #FF6700;
+}
+.homeMain .ZNRight .ZNTravel{
+	color: #424242;
+}
+.homeMain .ZNRight .ZNTravel:hover{
+	color: #FF6700;
+	border-bottom: 2px solid #FF6700;
+}
+.homeMain .ZNMain .ZNMainTop{
+	margin: 0 62px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.homeMain .ZNMain .ZNMainTop .ZNTopItem1{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/ZNImg1.png);
+	transition: all 0.4s;
+}
+.homeMain .ZNMain .ZNMainTop .ZNTopItem2{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/ZNImg2.png);
+	transition: all 0.4s;
+}
+.homeMain .ZNMain .ZNMainTop .ZNTopItem3{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/ZNImg3.png);
+	transition: all 0.4s;
+}
+.homeMain .ZNMain .ZNMainTop .ZNTopItem4{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/ZNImg4.png);
+	transition: all 0.4s;
+}
+.homeMain .ZNMain .ZNMainTop .ZNTopItem5{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/ZNImg5.png);
+	transition: all 0.4s;
+}
+.homeMain .ZNMain .ZNMainTop .ZNTopItem1:hover,
+.homeMain .ZNMain .ZNMainTop .ZNTopItem2:hover,
+.homeMain .ZNMain .ZNMainTop .ZNTopItem3:hover,
+.homeMain .ZNMain .ZNMainTop .ZNTopItem4:hover,
+.homeMain .ZNMain .ZNMainTop .ZNTopItem5:hover{
+	width: 235px;
+	height: 300px;
+	transform: translateY(-1px);
+	box-shadow:5px 10px 25px  rgba(0,0,0,0.5);
+}
+.homeMain .ZNMain .ZNMainBottom{
+	margin: 15px 62px 0 62px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.homeMain .ZNMain .ZNMainBottom .ZNTopItem6{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/ZNImg6.png);
+	transition: all 0.4s;
+}
+.homeMain .ZNMain .ZNMainBottom .ZNTopItem7{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/ZNImg7.png);
+	transition: all 0.4s;
+}
+.homeMain .ZNMain .ZNMainBottom .ZNTopItem8{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/ZNImg8.png);
+	transition: all 0.4s;
+}
+.homeMain .ZNMain .ZNMainBottom .ZNTopItem9{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/ZNImg9.png);
+	transition: all 0.4s;
+}
+.homeMain .ZNMain .ZNMainBottom .ZNBottomR{
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+	justify-content: space-between;
+}
+.homeMain .ZNMain .ZNMainBottom .ZNTopItem10{
+	width: 235px;
+	height: 140px;
+	background-image: url(../img/ZNImg10.png);
+	background-repeat: no-repeat;
+	transition: all 0.4s;
+}
+.homeMain .ZNMain .ZNMainBottom .ZNTopItem11{
+	width: 235px;
+	height: 140px;
+	background-image: url(../img/Browse_more.png);
+	background-repeat: no-repeat;
+	transition: all 0.4s;
+}
+.homeMain .ZNMain .ZNMainBottom .ZNTopItem6:hover,
+.homeMain .ZNMain .ZNMainBottom .ZNTopItem7:hover,
+.homeMain .ZNMain .ZNMainBottom .ZNTopItem8:hover,
+.homeMain .ZNMain .ZNMainBottom .ZNTopItem9:hover,
+.homeMain .ZNMain .ZNMainBottom .ZNTopItem10:hover,
+.homeMain .ZNMain .ZNMainBottom .ZNTopItem11:hover{
+	transform: translateY(-1px);
+	box-shadow:5px 10px 25px  rgba(0,0,0,0.5);
+}
+/* 分割：门窗传感器 */
+.homeMain .sensor{
+	background-image: url(../img/sensor.webp);
+	width: 1226px;
+	height: 120px;
+	margin: 20px 62px 20px 62px;
+}
+/* 配件版块 */
+.homeMain .partsTitle{
+	display: flex;
+	position: relative;
+}
+.homeMain .partsTitle .parts{
+	margin: 0 62px;
+	font-size: 22px;
+	font-weight: 200;
+	line-height: 58px;
+	color: #333;
+}
+.homeMain .partsRight{
+	display: flex;
+	position: absolute;
+	font-size: 16px;
+	margin-top: 16px;
+	line-height: 30px;
+	right: 62px;
+}
+.homeMain .partsRight .partsHot{
+	margin-right: 30px;
+	color: #424242;
+}
+.homeMain .partsRight .partsHot:hover{
+	margin-right: 30px;
+	color: #FF6700;
+	border-bottom: 2px solid #FF6700;
+}
+.homeMain .partsRight .partsCharger{
+	color: #424242;
+}
+.homeMain .partsRight .partsCharger:hover{
+	color: #FF6700;
+	border-bottom: 2px solid #FF6700;
+}
+.homeMain .partsMain .partsMainTop{
+	margin: 0 62px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.homeMain .partsMain .partsMainTop .partsTopItem1{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/partsImg1.png);
+	transition: all 0.4s;
+}
+.homeMain .partsMain .partsMainTop .partsTopItem2{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/partsImg2.png);
+	transition: all 0.4s;
+}
+.homeMain .partsMain .partsMainTop .partsTopItem3{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/partsImg3.png);
+	transition: all 0.4s;
+}
+.homeMain .partsMain .partsMainTop .partsTopItem4{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/partsImg4.png);
+	transition: all 0.4s;
+}
+.homeMain .partsMain .partsMainTop .partsTopItem5{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/partsImg5.png);
+	transition: all 0.4s;
+}
+.homeMain .partsMain .partsMainTop .partsTopItem1:hover,
+.homeMain .partsMain .partsMainTop .partsTopItem2:hover,
+.homeMain .partsMain .partsMainTop .partsTopItem3:hover,
+.homeMain .partsMain .partsMainTop .partsTopItem4:hover,
+.homeMain .partsMain .partsMainTop .partsTopItem5:hover{
+	width: 235px;
+	height: 300px;
+	transform: translateY(-1px);
+	box-shadow:5px 10px 25px  rgba(0,0,0,0.5);
+}
+.homeMain .partsMain .partsMainBottom{
+	margin: 15px 62px 0 62px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.homeMain .partsMain .partsMainBottom .partsTopItem6{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/partsImg6.png);
+	transition: all 0.4s;
+}
+.homeMain .partsMain .partsMainBottom .partsTopItem7{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/partsImg7.png);
+	transition: all 0.4s;
+}
+.homeMain .partsMain .partsMainBottom .partsTopItem8{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/partsImg8.png);
+	transition: all 0.4s;
+}
+.homeMain .partsMain .partsMainBottom .partsTopItem9{
+	width: 235px;
+	height: 300px;
+	background-image: url(../img/partsImg9.png);
+	transition: all 0.4s;
+}
+.homeMain .partsMain .partsMainBottom .partsBottomR{
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+	justify-content: space-between;
+}
+.homeMain .partsMain .partsMainBottom .partsTopItem10{
+	width: 235px;
+	height: 140px;
+	background-image: url(../img/Browse_more.png);
+	background-repeat: no-repeat;
+	transition: all 0.4s;
+}
+
+.homeMain .partsMain .partsMainBottom .partsTopItem6:hover,
+.homeMain .partsMain .partsMainBottom .partsTopItem7:hover,
+.homeMain .partsMain .partsMainBottom .partsTopItem8:hover,
+.homeMain .partsMain .partsMainBottom .partsTopItem9:hover,
+.homeMain .partsMain .partsMainBottom .partsTopItem10:hover{
+	transform: translateY(-1px);
+	box-shadow:5px 10px 25px  rgba(0,0,0,0.5);
+}
+/* 分割：缤纷夏日行*/
+.homeMain .sensor{
+	background-image: url(../img/summerTravel.webp);
+	width: 1226px;
+	height: 120px;
+	margin: 20px 62px 0px 62px;
+} 

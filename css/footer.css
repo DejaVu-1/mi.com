@@ -1,0 +1,90 @@
+.footer{
+	background-color: #FFFFFF;
+	width: 100%;
+	position: absolute;
+}
+#FG{
+	width: 100%;
+	height: 30px;
+	background-color: #F5F5F5;
+}
+.footer .footerTop{
+	margin: 0 62px 0 62px;
+	font-size: 16px;
+	height: 80px;
+	line-height: 80px;
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+	align-items: baseline;
+}
+.footer .footerTop a{
+	color: #616161;
+	transition: all 0.2s;
+}
+.footer .footerTop a:hover{
+	color: #FF6700;
+}
+.footer .footerTop .iconfont{
+	font-size: 24px;
+}
+.footer .footerTop #span{
+	color: #E0E0E0;
+	font-size: 22px;
+}
+.footer hr{
+	margin: 0 62px;
+}
+.footer .footerMain{
+	display: flex;
+	margin: 0 62px;
+	/* justify-content: space-between; */
+}
+.footer .footerMain .footerMainList{
+	display: flex;
+	height: 230px;
+	width: 100%;
+	justify-content: space-between;
+}
+.footer .footerMain .footerMainList .MainListItem{
+	display: flex;
+	flex-direction: column;
+}
+.footer .footerMain .footerMainList .listHead{
+	font-size: 14px;
+	padding-top: 28px;
+}
+.footer .footerMain .footerMainList a{
+	font-size: 12px;
+	color: #757575;
+	padding-top: 15px;
+}
+.footer .footerMain .footerMainList a:hover{
+	font-size: 12px;
+	color: #FF6700;
+	padding-top: 15px;
+}
+.footer .footerBottom{
+	margin: 0 62px;
+}
+.footer .footerBottom .infoRow p{
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+}
+.footer .footerBottom a{
+	color: #757575;
+}
+.footer .footerBottom a:hover{
+	color: #FF6700;
+}
+.footer .footerBottom .miInfo{
+	margin-top: 15px;
+}
+.footer .footerBottom .miInfo p{
+	font-size: 14px;
+	margin-top: 5px;
+}
+.footer .footerBottom .footerImg{
+	margin: 20px auto;
+}

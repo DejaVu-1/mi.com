@@ -1,0 +1,102 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: #F9F9F9;
+}
+.all{
+	background-color: #FFFFFF;
+	width: 856px;
+	margin: 0 auto;
+}
+.header{
+	background-image: url(../img/register_milogo.png);
+	width: 48px;
+	height: 48px;
+	background-position: center;
+	margin: 0 auto;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.middle{
+	margin-top: 50px;
+}
+.middle .middleTitle{
+	text-align: center;
+	font-size: 30px;
+	color: #333333;
+}
+.middle .middleForm{
+	margin: 40px 265px 0 265px;
+	font-size: 14px;
+	color: #333333;
+}
+.middle .middleForm select{
+	margin-top: 5px;
+	width: 332px;
+	height: 42px;
+}
+.middle .middleForm .middleTip{
+	margin-top: 5px;
+	margin-bottom: 20px;
+	color: #666666;
+}
+.middle .middleForm .phone{
+	display: flex;
+	width: 332px;
+}
+.middle .middleForm #phone{
+	width: 60px;
+	height: 42px;
+}
+.middle .middleForm input{
+	width: 270px;
+	height: 42px;
+	margin-top: 5px;
+	border-top-width: 1px;
+	border-left-width: 0px;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+}
+.middle .middleForm .submit{
+	margin-top: 30px;
+	width: 332px;
+	color: #FFFDEF;
+	border: 1px solid #CCCCCC;
+	background-color: #FF6700;
+}
+.middle .middleForm .agree{
+	margin-top: 85px;
+	text-align: center;
+	color: #9D9D9D;
+}
+.middle .middleForm .agree a{
+	font-weight: bold;
+	color: #000000;
+}
+.register_footer .footerList1{
+	text-align: center;
+	margin-top: 55px;
+	font-size: 14px;
+}
+.register_footer .footerList1 a{
+	margin: 0 10px;
+}
+.register_footer .footerList1 a:nth-child(1){
+	color: #333;
+}
+.register_footer a{
+	color: #757575;
+}
+.register_footer .footerList2{
+	text-align: center;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: #9d9d9d;;
+}

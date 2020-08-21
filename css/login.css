@@ -1,0 +1,124 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+.login_head{
+	height: 98px;
+	width: 100%;
+}
+.login_head .loginLogo{
+	background-image: url(../img/Login_Logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	height: 98px;
+	width: 200px;
+	margin-left: 110px;
+}
+.loginBanner{
+	background-image: url(../img/login_banner.jpg);
+	height: 588px;
+	background-position: top center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.loginBanner .loginRight{
+	width: 410px;
+	height: 555px;
+	background-color: #FFFFFF;
+	top: 35px;
+	position: absolute;
+	right: 110px;
+	padding: 27px 0 24px;
+	color: #c8c8c8;
+}
+.loginBanner .loginRight .loginTop{
+	font-size: 23px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.loginBanner .loginRight .loginTop a{
+	color: #757575;
+}
+.loginBanner .loginRight .loginTop a:nth-child(1){
+	color: #FF6700;
+}
+.loginBanner .loginRight .loginTop a:hover{
+	color: #FF6700;
+}
+.loginBanner .loginRight .loginForm{
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	height: 190px;
+	align-items: center;
+	justify-content: space-between;
+}
+.loginBanner .loginRight .loginForm input{
+	width: 350px;
+	height: 50px;
+	text-indent: 1em;
+	border: 1px solid #afafaf;
+}
+.loginBanner .loginRight .loginForm .loginBut{
+	background-color: #FF6700;
+	border: 0;
+	text-indent: 0;
+	color: #FFFDEF;
+	margin-top: 10px;
+}
+.loginBanner .loginRight .phoneLogin{
+	margin-top: 10px;
+	font-size: 14px;
+	text-align: center;
+}
+.loginBanner .loginRight .phoneLogin a{
+	color: #FF6700;
+}
+.loginBanner .loginRight .forgetPass{
+	margin-top: 30px;
+	font-size: 14px;
+	text-align: center;	
+}
+.loginBanner .loginRight .forgetPass a{
+	color: #999999;
+}
+.loginBanner .loginRight .forgetPass a:hover{
+	color: #FF6700;
+}
+.loginBanner .loginRight .otherWayWord{
+	margin-top: 130px;
+	font-size: 14px;
+	text-align: center;
+}
+.loginBanner .loginRight .otherWayIcon{
+	width: calc(100% - 100px);
+	display: flex;
+	font-size: 30px;
+	margin-left: 50px;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.login_footer{
+	margin-top: 100px;
+	text-align: center;
+	font-size: 14px;
+	color: #757575;
+}
+.login_footer .footerList1 a{
+	margin: 0 14px;
+}
+.login_footer .footerList1 a:nth-child(1){
+	color: #333;
+}
+.login_footer a{
+	color: #757575;
+}
+.login_footer .footerList2{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}

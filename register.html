@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>register-注册</title>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<script type="text/javascript">
+			function agree(){
+				if (document.getElementById('ty').checked)
+					document.getElementById('zc').disabled = false;
+				else
+					document.getElementById('zc').disabled = 'disabled';
+			}
+		</script>
+	</head>
+	<body>
+		<div class="all">
+			<div class="header"></div>
+			<div class="middle">
+				<div class="middleTitle">
+					注册小米账号
+				</div>
+				<form action="" method="post" class="middleForm">
+					国家/地区
+					<select >
+						<option value="">中国</option>
+						<option value="">中国香港</option>
+						<option value="">美国</option>
+						<option value="">日本</option>
+						<option value="">韩国</option>
+						<option value="">巴基斯坦</option>
+					</select>
+					<div class="middleTip">
+						成功注册帐号后，国家/地区将不能被修改
+					</div>	
+					手机号码<br>
+					<div class="phone">
+						<select id="phone">
+							<option value="">中国 &nbsp; &nbsp; &nbsp;+86</option>
+							<option value="">中国香港 &nbsp; &nbsp; &nbsp;+852</option>
+							<option value="">美国 &nbsp; &nbsp; &nbsp;+1</option>
+							<option value="">美国 &nbsp; &nbsp; &nbsp;+81</option>
+							<option value="">韩国 &nbsp; &nbsp; &nbsp;+82</option>
+							<option value="">巴基斯坦 &nbsp; &nbsp; &nbsp;+92</option>
+						</select>
+						<input type="text" name="" id="" value=""  required="required"/>
+					</div>
+					<input type="submit" name="" id="" value="立即注册" class="submit" />
+					<div class="agree">
+						已阅读并同意：小米<a href=""> 用户协议</a>和<a href=""> 隐私政策</a>
+					</div>
+					
+				</form>
+			</div>
+			<div class="register_footer">
+				<div class="footerList1">
+					<a href="">简体</a><span>|</span>
+					<a href="">繁体</a><span>|</span>
+					<a href="">English</a><span>|</span>
+					<a href="">常见问题</a><span>|</span>
+				</div>
+				<div class="footerList2">
+					小米公司版权所有-京ICP备10046444-
+					<a href=""><img src="img/ghs.png" >京公网安备11010802020134号</a>
+					-京ICP证110507号
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
